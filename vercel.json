@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "ilab.illusionarc.com" }],
+      "destination": "/ilab/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "itoon.illusionarc.com" }],
+      "destination": "/itoon/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "ispark.illusionarc.com" }],
+      "destination": "/ispark/:path*"
+    }
+  ]
+}
