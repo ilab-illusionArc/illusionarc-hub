@@ -1,4 +1,43 @@
 {
+  "redirects": [
+    {
+      "source": "/ilab/:path*",
+      "has": [{ "type": "host", "value": "iforge.illusionarc.com" }],
+      "destination": "https://ilab.illusionarc.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/itoon/:path*",
+      "has": [{ "type": "host", "value": "iforge.illusionarc.com" }],
+      "destination": "https://itoon.illusionarc.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ispark/:path*",
+      "has": [{ "type": "host", "value": "iforge.illusionarc.com" }],
+      "destination": "https://ispark.illusionarc.com/:path*",
+      "permanent": true
+    },
+
+    {
+      "source": "/ilab/:path*",
+      "has": [{ "type": "host", "value": "ilab.illusionarc.com" }],
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/itoon/:path*",
+      "has": [{ "type": "host", "value": "itoon.illusionarc.com" }],
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ispark/:path*",
+      "has": [{ "type": "host", "value": "ispark.illusionarc.com" }],
+      "destination": "/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/:path*",
